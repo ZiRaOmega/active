@@ -1,6 +1,7 @@
 Run pip install -U pyinstaller
-Run pyinstaller --onefile main.py
-Run dist\main.exe
+Run pyinstaller --onefile tinyscanner.py
+Run cd dist
+DO the audit
 
 
 
