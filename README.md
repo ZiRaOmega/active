@@ -1,3 +1,9 @@
+Run pip install -U pyinstaller
+Run pyinstaller --onefile main.py
+Run dist\main.exe
+
+
+
 The code starts by defining a function called get_port_state. This function takes three parameters: address (the target IP address), port (the port number), and protocol (either "tcp" or "udp"). The purpose of this function is not shown in the provided code snippet, so we can assume it is defined elsewhere in the program.
 
 The program then checks if the current file is being executed as the main program using the if __name__ == '__main__': condition. This condition ensures that the following code block is only executed if the file is run directly, rather than being imported as a module.
